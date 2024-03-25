@@ -178,6 +178,12 @@
 								    <artifactId>netty-buffer</artifactId>
 								    <version>4.1.85.Final</version>
 								</artifactItem>
+								<!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+								<artifactItem>
+								    <groupId>io.netty</groupId>
+								    <artifactId>netty-all</artifactId>
+								    <version>4.1.85.Final</version>
+								</artifactItem>
 								<artifactItem>
 								    <groupId>org.asynchttpclient</groupId>
 								    <artifactId>async-http-client</artifactId>
