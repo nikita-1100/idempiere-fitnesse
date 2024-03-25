@@ -489,7 +489,7 @@ public class FitRecorder implements ModelValidator {
 
 	private String resolveValue(PO po, MTable table, MColumn column) {
 		String value = null;
-		// IP - Отключено из-за возникновения проблем с не уникальными значениями вторичных идентификаторов
+		//IP - Отключено из-за возникновения проблем с не уникальными значениями вторичных идентификаторов
 		
 //		// resolve to identifier - search for value first, if not search for name - if not use the ID
 //		String foreignTable = column.getReferenceTableName();
