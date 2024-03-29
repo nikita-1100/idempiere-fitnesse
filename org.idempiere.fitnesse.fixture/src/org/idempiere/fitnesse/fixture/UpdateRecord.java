@@ -68,8 +68,6 @@ public class UpdateRecord extends TableFixture {
 			getCell(rows - 1, 1).addToBody("not logged in");
 			return;
 		}
-		ServerContext.dispose();
-		adempiereInstance.dispose();
 		Properties ctx = adempiereInstance.getAdempiereService().getCtx();
 		int windowNo = adempiereInstance.getAdempiereService().getWindowNo();
 		String trxName = adempiereInstance.getAdempiereService().get_TrxName();//red1
